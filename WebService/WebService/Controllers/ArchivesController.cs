@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SqlSugar;
+using SyntacticSugar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace WebService.Controllers
         {
             SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
             {
-                ConnectionString = Config.ConnectionString,
+                ConnectionString = ConfigSugar.GetConnectionString("LocalSqlServer"),
                 DbType = DbType.SqlServer,
                 IsAutoCloseConnection = true
             });
