@@ -1,0 +1,52 @@
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.StringSugar 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.CacheManager`1 生成存根: 类型没有系列可见的构造函数。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.TypeParseExtenions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.LogicSugarExtenions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.XHtmlElementExtendsion 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.ValidationSugarExtension 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IQueryableExtensions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.RandomSugar 生成存根: 类型没有系列可见的构造函数。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IsWhatExtenions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.DictionaryExtensions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.DataTableExtension 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.EnumSugarExtenions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IEnumerableExtensions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.DataTableExtensions 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 <PrivateImplementationDetails>{1552547D-55D2-41AA-88FC-73679B019C7F} 生成存根: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 <>f__AnonymousType0`2 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 <>f__AnonymousType1`2 生成存根: 类型已密封。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.FileSugar+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.UploadImage+CutMode 生成填充码: 类型是一个枚举。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.CacheManager`1+<GetAllKey>d__1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.TypeParseExtenions+<>c__DisplayClass1`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.TypeParseExtenions+<>c__DisplayClass4`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.LogicSugarExtenions+<Break>o__SiteContainer4`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.DateSugar+DateInterval 生成填充码: 类型是一个枚举。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.XHtmlElement+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.XHtmlElement+<>c__DisplayClass7 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.XHtmlElementExtendsion+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.EncryptSugar+<>c__DisplayClass9 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.SessionManager`1+<GetAllKey>d__1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.CookiesManager`1+<GetAllKey>d__1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.ValidationSugar+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.ValidationSugar+<>c__DisplayClassf 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.ValidationSugar+OptionItemType 生成填充码: 类型是一个枚举。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IQueryableExtensions+OrderByType 生成填充码: 类型是一个枚举。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.RandomSugar+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IsWhatExtenions+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.MailSmtp+<>c__DisplayClass5 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.PageString+ParamsModel 生成填充码: 类型对 exported or assembly(SyntacticSugar.Fakes) 不可见。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.PerformanceTest+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.PerformanceTest+<>c__DisplayClass6 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.PerformanceTest+ParamsModel 生成填充码: 类型对 exported or assembly(SyntacticSugar.Fakes) 不可见。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.UploadFile+ParamsModel 生成填充码: 类型对 exported or assembly(SyntacticSugar.Fakes) 不可见。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.UploadFile+PathSaveType 生成填充码: 类型是一个枚举。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.DynamicSugar+DynamicDictionary 生成填充码: 类型对 exported or assembly(SyntacticSugar.Fakes) 不可见。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IEnumerableExtensions+<>c__DisplayClass2`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IEnumerableExtensions+<>c__DisplayClass7`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IEnumerableExtensions+<>c__DisplayClassb`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IEnumerableExtensions+<>c__DisplayClassf`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 SyntacticSugar.IEnumerableExtensions+OrderByType 生成填充码: 类型是一个枚举。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 <PrivateImplementationDetails>{1552547D-55D2-41AA-88FC-73679B019C7F} 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 <>f__AnonymousType0`2 生成填充码: 类型不受支持，因为存在内部限制。
+D:\Person\SugarSite\Infrastructure\Fakes\SyntacticSugar.fakes : warning : 无法为 <>f__AnonymousType1`2 生成填充码: 类型不受支持，因为存在内部限制。

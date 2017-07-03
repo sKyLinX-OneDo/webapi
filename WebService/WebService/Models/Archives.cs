@@ -6,6 +6,7 @@ using System.Web;
 
 namespace WebService.Models
 {
+    
     [SugarTable("Record")]
     public class Archives
     {

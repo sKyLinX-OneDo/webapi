@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using Infrastructure.Dao;
+using Infrastructure.DbModels;
+using Newtonsoft.Json;
 using SqlSugar;
 using SyntacticSugar;
 using System;
@@ -7,12 +9,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using WebService.Models;
+using WebService.App_Start;
 
 namespace WebService.Controllers
 {
-    public class ArchivesController : ApiController
+    public class ArchivesController :BaseController
     {
+        public ArchivesController(DbService s) : base(s) { }
 
         public string Get()
         {
@@ -22,17 +25,14 @@ namespace WebService.Controllers
         [HttpGet]
         public string Get(string id)
         {
-            SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
+            //调用服务,传入参数：服务对象，数据库对象
+            _service.Command<ArchivesOutsourcing>((db,o) =>
             {
-                ConnectionString = ConfigSugar.GetConnectionString("LocalSqlServer"),
-                DbType = DbType.SqlServer,
-                IsAutoCloseConnection = true
+                var getSome = db.Queryable<Archives>().Where(it => it.ID == id).ToList();
             });
 
-            var getSome = db.Queryable<Archives>().Where(it => it.ID == id).ToList();
 
-            return JsonConvert.SerializeObject(getSome);
-
+            return "";
         }
 
 
