@@ -6,7 +6,7 @@ namespace Infrastructure.Dao
 {
     public class DbConfig
     {
-        public static string _connectionString = ConfigSugar.GetConfigString("DefaultConnection");
+        public static string _connectionString = ConfigSugar.GetConnectionString("DefaultConnection");
         public static SqlSugarClient GetDbInstance()
         {
             try
@@ -17,6 +17,11 @@ namespace Infrastructure.Dao
                     DbType = DbType.SqlServer,
                     IsAutoCloseConnection = true
                 });
+                reval.Ado.IsEnableLogEvent = true;
+                reval.Ado.LogEventStarting = (sql, pars) =>
+                {
+
+                };
                 return reval;
             }
             catch (Exception ex)

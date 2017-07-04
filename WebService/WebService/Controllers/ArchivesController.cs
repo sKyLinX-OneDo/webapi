@@ -13,9 +13,9 @@ using WebService.App_Start;
 
 namespace WebService.Controllers
 {
-    public class ArchivesController :BaseController
+    public class ArchivesController : BaseController
     {
-        public ArchivesController(DbService s) : base(s) { }
+        public ArchivesController() : base() { }
 
         public string Get()
         {

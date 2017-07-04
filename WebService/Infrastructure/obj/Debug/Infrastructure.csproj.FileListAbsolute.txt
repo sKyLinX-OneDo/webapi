@@ -12,9 +12,10 @@ D:\Person\webapi\WebService\Infrastructure\bin\Debug\Infrastructure.pdb
 D:\Person\webapi\WebService\Infrastructure\bin\Debug\RestSharp.dll
 D:\Person\webapi\WebService\Infrastructure\bin\Debug\SqlSugar.dll
 D:\Person\webapi\WebService\Infrastructure\bin\Debug\SyntacticSugar.dll
-D:\Person\webapi\WebService\Infrastructure\bin\Debug\MySql.Data.dll
-D:\Person\webapi\WebService\Infrastructure\bin\Debug\Newtonsoft.Json.dll
 D:\Person\webapi\WebService\Infrastructure\bin\Debug\RestSharp.xml
 D:\Person\webapi\WebService\Infrastructure\obj\Debug\Infrastructure.dll
 D:\Person\webapi\WebService\Infrastructure\obj\Debug\Infrastructure.pdb
+D:\Person\webapi\WebService\Infrastructure\bin\Debug\Infrastructure.dll.config
+D:\Person\webapi\WebService\Infrastructure\bin\Debug\Newtonsoft.Json.dll
 D:\Person\webapi\WebService\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+D:\Person\webapi\WebService\Infrastructure\bin\Debug\MySql.Data.dll

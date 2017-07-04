@@ -12,9 +12,9 @@ namespace WebService.App_Start
     {
         public DbService _service;
 
-        public BaseController(DbService s)
+        public BaseController()
         {
-            _service = s;
+            _service = new DbService();
         }
     }
 }
