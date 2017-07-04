@@ -15,24 +15,22 @@ namespace WebService.Controllers
 {
     public class ArchivesController : BaseController
     {
-        public ArchivesController() : base() { }
+        public static string ConnectionString = ConfigSugar.GetConfigString("DefaultConnection");
 
-        public string Get()
-        {
-            return "test";
-        }
+        public ArchivesController() : base(ConnectionString) { }
 
         [HttpGet]
-        public string Get(string id)
+        public IHttpActionResult Get(string id)
         {
+            var getSome = new List<Archives>();
             //调用服务,传入参数：服务对象，数据库对象
-            _service.Command<ArchivesOutsourcing>((db,o) =>
+            _service.Command<ArchivesOutsourcing>((db, o) =>
             {
-                var getSome = db.Queryable<Archives>().Where(it => it.ID == id).ToList();
+                getSome = db.Queryable<Archives>().Where(it => it.ID == id).ToList();
             });
 
 
-            return "";
+            return Json(getSome);
         }
 
 

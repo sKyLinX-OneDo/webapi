@@ -11,9 +11,9 @@ namespace Infrastructure.Dao
     public class DbService : IDisposable
     {
         private SqlSugarClient _db;
-        public DbService()
+        public DbService(string ConnectionString)
         {
-            _db = DbConfig.GetDbInstance();
+            _db = DbConfig.GetDbInstance(ConnectionString);
         }
 
         /// <summary>

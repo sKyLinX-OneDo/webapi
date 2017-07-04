@@ -6,14 +6,13 @@ namespace Infrastructure.Dao
 {
     public class DbConfig
     {
-        public static string _connectionString = ConfigSugar.GetConnectionString("DefaultConnection");
-        public static SqlSugarClient GetDbInstance()
+        public static SqlSugarClient GetDbInstance(string Connectionstring)
         {
             try
             {
                 var reval = new SqlSugarClient(new ConnectionConfig()
                 {
-                    ConnectionString = _connectionString,
+                    ConnectionString = Connectionstring,
                     DbType = DbType.SqlServer,
                     IsAutoCloseConnection = true
                 });
